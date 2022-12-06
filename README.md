@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Space tourism website](https://your-solution-url.com)
-- Live Site URL: [Space tourism website](https://your-live-site-url.com)
+- Solution URL: [Space tourism website](https://github.com/wuzgood98/space-tourism-website)
+- Live Site URL: [Space tourism website](https://space-tourism-website98.netlify.app/)
 
 ## My process
 
