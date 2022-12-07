@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <header className="w-full relative h-24 flex justify-between items-center lg:top-10  lg:after:relative lg:after:h-[1px] lg:after:bg-offWhite lg:after:opacity-[0.25] lg:after:mix-blend-normal lg:after:block lg:after:w-full lg:after:order-1 lg:after:-mr-8">
-      <Link role='navigation' aria-label='homepage' to='/' className='shrink-0 p-7 active:scale-95 transition-transform xl:pl-14 2xl:pl-44'>
+      <Link aria-label='homepage' to='/' className='shrink-0 p-7 active:scale-95 transition-transform xl:pl-14 2xl:pl-44'>
         <img src={logo} alt="logo" />
       </Link>
       <button aria-controls='primary-navigation' onClick={() => setIsSidebarOpen(true)} className='p-7 active:scale-95 transition-transform sm:hidden'>
