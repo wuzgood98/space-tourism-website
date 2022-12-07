@@ -16,7 +16,7 @@ const Crew = () => {
 
       <Navbar />
 
-      <main id='main' className='w-full p-7 flex flex-col gap-8 items-center h-full lg:h-[47.2rem] sm:pb-0 lg:px-0 sm:gap-16 sm:flex-col-reverse sm:justify-between sm:pt-10 lg:flex-row-reverse lg:justify-between lg:text-left lg:max-w-[60rem] xl:max-w-[68rem] 2xl:max-w-[77rem] lg:mx-auto lg:mt-auto'>
+      <section id='main' className='w-full p-7 flex flex-col gap-8 items-center h-full lg:h-[47.2rem] sm:pb-0 lg:px-0 sm:gap-16 sm:flex-col-reverse sm:justify-between sm:pt-10 lg:flex-row-reverse lg:justify-between lg:text-left lg:max-w-[60rem] xl:max-w-[68rem] 2xl:max-w-[77rem] lg:mx-auto lg:mt-auto'>
         <motion.div
           initial='hidden'
           animate='visible'
@@ -63,7 +63,7 @@ const Crew = () => {
 
         </div>
 
-      </main>
+      </section>
 
     </div>
   )

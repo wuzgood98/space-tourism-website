@@ -15,7 +15,7 @@ const Technology = () => {
       <a href='#main' className="absolute z-50 bg-offWhite text-veryDarkBlue px-4 py-2 mx-auto -translate-y-full focus:translate-y-0 transition-transform">Skip to content</a>
       <Navbar />
 
-      <main id='main' className='w-full flex flex-col gap-8 items-center h-full sm:pt-7 lg:mt-20 lg:h-[39rem] lg:justify-between lg:flex-row-reverse lg:max-w-[68rem] lg:pl-7 xl:pl-0 xl:max-w-[79rem] 2xl:max-w-[97rem] lg:ml-auto pb-12 2xl:pb-0 2xl:mt-36 2xl:pl-12'>
+      <section id='main' className='w-full flex flex-col gap-8 items-center h-full sm:pt-7 lg:mt-20 lg:h-[39rem] lg:justify-between lg:flex-row-reverse lg:max-w-[68rem] lg:pl-7 xl:pl-0 xl:max-w-[79rem] 2xl:max-w-[97rem] lg:ml-auto pb-12 2xl:pb-0 2xl:mt-36 2xl:pl-12'>
 
         <div className='flex w-full 2xl:w-[40%] flex-col items-center gap-10 h-max sm:gap-5 lg:w-auto lg:self-end'>
           <motion.h1
@@ -82,7 +82,7 @@ const Technology = () => {
             </div>
           </motion.div>
         </div>
-      </main>
+      </section>
     </div>
   )
 }

@@ -13,7 +13,7 @@ const Home = () => {
       <a href='#main' className="absolute z-50 bg-offWhite text-veryDarkBlue px-4 py-2 mx-auto -translate-y-full focus:translate-y-0 transition-transform">Skip to content</a>
       <Navbar />
 
-      <motion.main
+      <motion.section
         id='main'
         initial='hidden'
         animate='visible'
@@ -51,7 +51,7 @@ const Home = () => {
         >
           <Link id='large-button' to='/destination' className='relative font-bellefair text-xl tracking-[0.078rem] uppercase py-0 px-8 aspect-square rounded-full bg-offWhite outline-none inline-grid place-content-center text-veryDarkBlue sm:px-12 lg:px-16 sm:text-[2rem] sm:leading-[2.3rem] sm:tracking-[0.125rem] lg:leading-[2.3125rem]  after:absolute after:bg-offWhite/[0.15] after:opacity-0 after:h-full after:w-full after:rounded-full hover:after:scale-150 focus:after:scale-150 hover:after:opacity-100 focus:after:opacity-100'>explore</Link>
         </motion.div>
-      </motion.main>
+      </motion.section>
     </div>
   )
 }

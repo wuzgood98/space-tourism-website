@@ -15,7 +15,7 @@ const Destination = () => {
       <a href='#main' className="absolute z-50 bg-offWhite text-veryDarkBlue px-4 py-2 mx-auto -translate-y-full focus:translate-y-0 transition-transform">Skip to content</a>
       <Navbar />
 
-      <main id='main' className='w-full p-7 flex flex-col gap-8 items-center h-full sm:gap-12 sm:pt-10 lg:pt-40 lg:flex-row lg:justify-between lg:text-left lg:max-w-[60rem] xl:max-w-[71rem] 2xl:max-w-[78rem] lg:mx-auto overflow-y-hidden'>
+      <section id='main' className='w-full p-7 flex flex-col gap-8 items-center h-full sm:gap-12 sm:pt-10 lg:pt-40 lg:flex-row lg:justify-between lg:text-left lg:max-w-[60rem] xl:max-w-[71rem] 2xl:max-w-[78rem] lg:mx-auto overflow-y-hidden'>
 
         <motion.div
           initial='hidden'
@@ -78,7 +78,7 @@ const Destination = () => {
             </div>
           </motion.div>
         </div>
-      </main>
+      </section>
     </div>
   )
 }
